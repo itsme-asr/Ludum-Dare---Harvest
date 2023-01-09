@@ -320,8 +320,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d853374142b648642911053193b16deb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toSpawn: {fileID: 826226879}
-  time: 1
+  time: 1.3
+  fruits:
+  - {fileID: 7343116232006198081, guid: 1c1132b3cf672f648be443d7370cc4d7, type: 3}
+  - {fileID: 7938238520238690350, guid: 3befbac2984daf045814473ce2c537cc, type: 3}
+  - {fileID: 3922815931011433542, guid: 663f9fc34891cba4d9b548c9546c42ab, type: 3}
 --- !u!4 &160726393
 Transform:
   m_ObjectHideFlags: 0
@@ -955,12 +958,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -1152,7 +1155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 94fd52a07b2804f4aac0fcf582e58020, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 8
+  moveSpeed: 10
   score: {fileID: 157764504}
 --- !u!1 &1785167755
 GameObject:

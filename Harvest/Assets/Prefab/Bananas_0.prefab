@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 7938238520238690338}
   - component: {fileID: 7938238520238690349}
   - component: {fileID: 7938238520238690348}
+  - component: {fileID: -1190159543635617495}
   m_Layer: 0
   m_Name: Bananas_0
-  m_TagString: Untagged
+  m_TagString: Fruit
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72,7 +73,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -5728686177044832811, guid: 1be89f3551de7774688d55a880fdab65, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -103,7 +104,7 @@ Rigidbody2D:
   m_Material: {fileID: 6200000, guid: ad1683ad1880e8746925efc1aa7000ab, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!58 &7938238520238690348
 CircleCollider2D:
@@ -115,9 +116,21 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.3
+--- !u!114 &-1190159543635617495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7938238520238690350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2f516fa8cc57048be6db140434ed45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -9,7 +9,7 @@ public class Life : MonoBehaviour
     {
         if (col.tag == "Fruit")
         {
-            heal = heal - 5;
+            heal = heal - 9;
             Destroy(col.gameObject);
         }
 
