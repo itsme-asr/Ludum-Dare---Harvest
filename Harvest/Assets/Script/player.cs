@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class player : MonoBehaviour
 {
-    [SerializeField] private float moveSpeed = 6f;
+    [SerializeField] private float moveSpeed = 8f;
     private Rigidbody2D rigBdy;
     [SerializeField] private Text score;
     private int collect = 0;
@@ -30,6 +30,7 @@ public class player : MonoBehaviour
         {
             collect++;
             score.text = "Fruit: " + collect;
+            PlayerPrefs.SetInt("highscore", collect);
             Destroy(col.gameObject);
 
         }
