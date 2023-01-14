@@ -1,5 +1,7 @@
 # Ludum-Dare---Harvest
 
+I took sole part in this 72 hrs game design jam and made this game based on the theme: **Harvest**
+
 + **Event [link](https://ldjam.com/events/ludum-dare/52/thinking-currently)**
 + **Game [link](https://asr07.itch.io/harvest-fruits)**
 
